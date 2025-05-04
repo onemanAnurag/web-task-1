@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      #outer {
+        height: 1200px;
+        width: 1000px;
+
+        margin: 100px auto;
+      }
+      body {
+        background-color: greenyellow;
+      }
+      #nav {
+        width: 1000px;
+        height: 50px;
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+      }
+      #bar {
+        height: 50;
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #slider {
+        width: 1000px;
+        height: 250px;
+        background-color: white;
+        margin-top: 10px;
+      }
+      #papa {
+        height: 600px;
+        width: 1000px;
+
+        margin-top: 10px;
+        border-radius: 0 0 20px 0;
+      }
+      #left {
+        height: 600px;
+        width: 700px;
+        background-color: white;
+        border-radius: 0 0 0 20px;
+        float: left;
+      }
+      #right {
+        width: 300px;
+        height: 600px;
+        background-color: grey;
+        float: right;
+        border-radius: 0 0 20px 0;
+        background-color: rgb(211, 238, 218);
+      }
+      #footer {
+        height: 260px;
+        width: 1000px;
+        background-color: white;
+        margin-top: 20px;
+        border-radius: 20px;
+        border: 1px solid black;
+      }
+      .box {
+        height: 200px;
+        width: 300px;
+       
+        margin-left: 25px;
+        margin-top: 30px;
+        float: left;
+      }
+      .content {
+        margin-left: 20px;
+      }
+      .con {
+        margin-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .sub-content {
+        margin-left: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        line-height: 1.5;
+      }
+    </style>
+   
+  </head>
+  <body>
+    <div id="outer">
+      <div id="nav">
+        <br />
+        <div id="bar">
+          <a href="index.html">Home</a>
+          <a href="about.html" target="_blank">About Us</a>
+
+          <a href="about.html" target="_blank" onclick="window.alert('successfully register' )">New registration</a>
+          <a href="about.html" target="_blank" onclick="window.alert('successful login')" >Login</a>
+          <a href="second.html" target="_blank" onclick="window.alert('conecting you' )">Contact Us</a>
+        </div>
+      </div>
+      <div id="slider">
+        <img src="sofa.png" height="250px" width="1000px" />
+      </div>
+      <div id="papa">
+        <div id="left">
+          <div class="content">
+            <h2>Template License</h2>
+            <p>
+              Date: <u>03.05.2025</u> | Posted by Owner | Filed under templates
+              internet with comments (11)
+            </p>
+            <img src="pht.jpg" alt="" />
+            <p style="line-height: 2; color: rgba(130, 122, 122, 0.984)">
+              This is a free CSS website tempelate by FreeWebsite TemplateZ.com
+              this work is distributed under the Creative Commons Attribution
+              3.0 License, which means that you are free to use it for any
+              personal or commercial purpose provide the credit links in the
+              tempelate footer are left intact.
+            </p>
+            <span style="color: greenyellow"><u>Read more</u></span>
+          </div>
+          <hr />
+          <div class="con">
+            <h2>Laptop in meeting room</h2>
+            <p style="margin-right: 10px;">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+              voluptatem quibusdam, mollitia sit dignissimos consequatur cumque
+              quasi? Perspiciatis voluptatibus repudiandae delectus animi.
+            </p>
+          </div>
+        </div>
+        <div id="right">
+          <div class="sub-content">
+            <h2>Sidebar Menu</h2>
+            <ul>
+              <li>Home</li>
+              <li>Templateinfo</li>
+              <li>Style Demo</li>
+              <li>Blog</li>
+              <li>Archives</li>
+              <li>Website Templates</li>
+            </ul>
+            <h2>Sponsors</h2>
+            <p style="line-height: 2; margin-right:10px;">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae
+              blanditiis laborum ad consequatur assumenda, illum commodi!
+              Repudiandae nostrum voluptatem, architecto itaque placeat eveniet,
+              iure necessitatibus rerum, quibusdam reprehenderit cum? At?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div class="box">
+         
+          <img src="img.jpg" alt="" style="padding: 15px;">
+        </div>
+        <div class="box">
+          <h2>Lorem Ipsum</h2>
+          <p style="line-height: 1.5;">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero rerum
+            commodi a reiciendis laborum ipsam aperiam, iusto minima assumenda
+            quasi, quisquam dignissimos eius magnam fugit perspiciatis. Magnam
+            officiis qui minus!
+          </p>
+        </div>
+        <div class="box">
+          <h2>Contact</h2>
+          <p>
+            present dapibus, neque id cursus faucibus, tottor neque egestas
+            augue.
+          </p>
+          <div style="line-height: 1.5;" class="contact">
+          <span>support@Yoursite.com</span><br>
+          <span>+91 4444-567785</span><br>
+          <span>Address: 123 TemplateAccess Rd1</span>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
